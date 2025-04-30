@@ -1,3 +1,5 @@
 const paragraph = document.getElementById("paragraph");
 
-paragraph.addEventListener("click", () =>{alert("This is a test")})
+const mySpan = document.getElementById("mySpan");
+
+mySpan.addEventListener("click", ()=>{alert("clicked")});
