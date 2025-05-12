@@ -10,7 +10,12 @@
 <body>
     <h1>Interlinear Bible</h1>
     <h2>Genesis 1:1</h2>
-    <p id="paragraph">"In the beginning God created the heavens and the <div class="popup">Earth<span class="popBox" id="popBox">Test!</span></div>."</p>
+    <p id="paragraph">"In the beginning God created the heavens and the Earth."</p>
+
+    <!-- This div holds both the clickable text, and the popup, the span inside the div just has the popup -->
+    <div class="popup" onclick="myFunction()">Click Me!
+        <span id="myPopup">Test successful</span>
+    </div>
 
     <script src="script.js"></script>
 </body>
